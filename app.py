@@ -27,7 +27,7 @@ class TrovaTemperatura(App):
         self.window.add_widget(self.input_text)
 
         self.input_button = Button(
-            text = "FIND",
+            text = "CERCA",
             size_hint = (1, 0.2),
             bold = True,
             background_color = "#01affe"
@@ -38,7 +38,7 @@ class TrovaTemperatura(App):
 
         self.input_label = Label(
             text = "SEARCH FOR A CITY",
-            font_size="25sp",
+            font_size="20sp",
             color = "#01affe"
         )
         self.window.add_widget(self.input_label)
